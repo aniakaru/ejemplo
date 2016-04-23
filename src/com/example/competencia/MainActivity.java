@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 		String estado=Environment.getExternalStorageState();
 		if(!estado.equals(Environment.MEDIA_MOUNTED))
 		{
-			Toast.makeText(this, "no hay memoria SD", 1).show();
+			Toast.makeText(this, "no hay memoria SD 1263", 1).show();
 			finish();
 		}
 		File dir=Environment.getExternalStorageDirectory();
